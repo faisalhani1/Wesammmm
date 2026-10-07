@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>أكاديمية الوسام ELWESAM</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Tahoma,sans-serif;background:#f7f8fb;color:#132238}
+    .hero{background:#071a33;color:white;padding:70px 22px;text-align:center}
+    .logo{font-size:38px;font-weight:800;letter-spacing:2px;color:#d6ad55}
+    h1{font-size:34px;margin:22px 0 12px}
+    .hero p{max-width:680px;margin:0 auto;line-height:1.9;color:#dbe4f0;font-size:18px}
+    .btn{display:inline-block;margin-top:28px;background:#d6ad55;color:#071a33;text-decoration:none;padding:14px 28px;border-radius:8px;font-weight:700}
+    .section{max-width:1050px;margin:auto;padding:55px 22px}
+    .title{text-align:center;margin-bottom:35px}
+    .title h2{font-size:28px;margin:0 0 10px}
+    .title p{color:#667085}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:white;border:1px solid #e6e9ef;border-radius:14px;padding:25px;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+    .card h3{margin-top:0;color:#0b315d}
+    .card p{line-height:1.8;color:#667085}
+    .about{background:white}
+    form{max-width:620px;margin:auto;background:white;padding:28px;border-radius:14px;border:1px solid #e6e9ef}
+    label{display:block;margin:14px 0 7px;font-weight:700}
+    input,textarea{width:100%;padding:13px;border:1px solid #ccd3dd;border-radius:8px;font-size:16px}
+    textarea{min-height:120px;resize:vertical}
+    button{width:100%;margin-top:18px;padding:14px;border:0;border-radius:8px;background:#071a33;color:white;font-size:17px;font-weight:700}
+    footer{background:#071a33;color:#dbe4f0;text-align:center;padding:28px}
+    footer strong{color:#d6ad55}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="logo">ELWESAM</div>
+    <h1>أكاديمية الوسام للتدريب والتعليم</h1>
+    <p>منصة تعليمية تهدف إلى تقديم مهارات الكمبيوتر والتقنية بطريقة مبسطة وعملية، بإشراف خبرة تعليمية تمتد لأكثر من 15 عامًا.</p>
+    <a class="btn" href="#courses">تعرّف على برامجنا</a>
+  </header>
+
+  <section class="section" id="courses">
+    <div class="title">
+      <h2>ماذا نقدم؟</h2>
+      <p>تعلم مهارات تقنية عملية تساعدك في الدراسة والعمل.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><h3>مهارات الكمبيوتر</h3><p>أساسيات استخدام الكمبيوتر والبرامج المكتبية بطريقة سهلة ومنظمة.</p></div>
+      <div class="card"><h3>Microsoft Office</h3><p>التدريب على Word وExcel وPowerPoint ومهارات العمل المكتبي.</p></div>
+      <div class="card"><h3>مهارات رقمية</h3><p>مهارات عملية تساعد الطلاب والمبتدئين على التعامل مع الأدوات الرقمية.</p></div>
+      <div class="card"><h3>تدريب أونلاين</h3><p>تعلم عن بُعد من أي مكان، مع برامج تدريبية مناسبة للمستويات المختلفة.</p></div>
+    </div>
+  </section>
+
+  <section class="section about">
+    <div class="title">
+      <h2>عن أكاديمية الوسام</h2>
+      <p>خبرة تعليمية، محتوى عملي، وتعلم يناسب احتياجات الطالب.</p>
+    </div>
+    <div class="card">
+      <p style="line-height:2">أكاديمية الوسام ELWESAM مشروع تعليمي إلكتروني يركز على تعليم مهارات الكمبيوتر والتقنية. نعمل على بناء تجربة تعليمية بسيطة واحترافية للطلاب من مختلف الدول.</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="title">
+      <h2>تواصل معنا</h2>
+      <p>يمكنك إرسال استفسارك أو طلب معلومات عن البرامج التدريبية.</p>
+    </div>
+    <form action="https://formspree.io/f/mrpeelnr" method="POST">
+      <label for="name">الاسم</label>
+      <input id="name" name="name" required>
+      <label for="email">البريد الإلكتروني</label>
+      <input id="email" name="email" type="email" required>
+      <label for="message">رسالتك</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </section>
+
+  <footer>© 2026 <strong>ELWESAM</strong> — أكاديمية الوسام</footer>
+</body>
+</html>
